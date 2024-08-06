@@ -1,0 +1,91 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    width: 100%;
+}
+header{
+    background-color: violet;
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+header button{
+    width: 80px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 5px;
+}
+.banner{
+    background-image: url(https://designforhackers.com/wp-content/uploads/2015/09/google-new-logo.png);
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+}
+section{
+    background-color: rgb(21, 96, 96);
+    padding-top: 10px;
+    width: 100%;
+    height: 800px;
+    
+
+
+}
+.row{
+    background-color: rgb(21, 96, 96);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.col{
+    background-color: rgba(158, 244, 219, 0.369);
+    width: 400px;
+    height: 600px;
+    margin: 5px;
+    text-align: center;
+    border-radius : 3%;
+    padding: 10px;
+}
+img{
+    padding-top: 5px;
+    border-radius: 5%;
+    width: 200px;
+    height: 400px;
+}
+ img:hover{
+    box-shadow: 4px 8px 8px 8px red;
+    border-color: rgb(0, 255, 26);
+}
+section span{
+    color: rgba(5, 38, 38, 0.519);
+    font-size: 20px;
+}
+section button{
+    color: rgb(139, 45, 45);
+    background-color: rgb(5, 134, 255);
+    border-style: solid;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10%;
+    font-size: 15px;
+}
+section button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.414);
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 400px;
+
+}
+footer h4{
+    color: aliceblue;
+}
